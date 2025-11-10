@@ -22,8 +22,8 @@ resource "aws_instance" "web" {
     Name = var.instance_name
     X-CS-Account = "547045142213"
     X-CS-Region = "us-east-1"
-    Owner = sneha
-    Reason = template
-    Environment = test
+    Owner = "sneha"
+    Reason = "template"
+    Environment = "test"
   }
 }
